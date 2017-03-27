@@ -1,0 +1,50 @@
+.heading {
+	text-align: center;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 60px;
+}
+
+.chambo {
+	color: #0066ff;
+}
+
+.navigation {
+	list-style: none;
+}
+
+.left {
+	float: left;
+	margin-left: -20px;
+}
+
+.right {
+	float: right;
+	margin-right: 20px;
+}
+
+.left a,
+.right a {
+	font-family: arial;
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: black;
+}
+
+header:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.col-sm-4 {
+	border: 5px solid black;
+}
+
+header {
+	border-bottom: 5px solid black;
+	margin-bottom: 20px;
+}
