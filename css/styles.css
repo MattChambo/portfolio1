@@ -6,7 +6,7 @@
 }
 
 .chambo {
-	color: #0066ff;
+	color: #002C71;
 }
 
 .navigation {
@@ -42,9 +42,16 @@ header:after {
 
 .col-sm-4 {
 	border: 5px solid black;
+	margin-bottom: 5px;
 }
 
 header {
+	border-top: 1px solid black;
 	border-bottom: 5px solid black;
 	margin-bottom: 20px;
+	background-color: #E6F1F6;
+}
+
+body {
+	background-color: #545E7B;
 }
