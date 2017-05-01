@@ -5,22 +5,26 @@
 	font-size: 60px;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 .chambo {
 	color: #002C71;
 }
 
-.navigation {
-	list-style: none;
+.design {
+	color: black;
 }
 
 .left {
-	float: left;
-	margin-left: -20px;
+	margin-left: 20px;
+	text-align: center;
 }
 
 .right {
-	float: right;
-	margin-right: 20px;
+	margin-left: 20px;
+	text-align: center;
 }
 
 .left a,
@@ -29,6 +33,11 @@
 	font-size: 20px;
 	margin-bottom: 20px;
 	color: black;
+}
+
+.left a:hover,
+.right a:hover {
+	text-decoration: underline;
 }
 
 header:after {
@@ -40,9 +49,11 @@ header:after {
   height: 0;
 }
 
-.col-sm-4 {
+.column {
 	border: 5px solid black;
 	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 header {
