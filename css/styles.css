@@ -75,3 +75,10 @@ h2 {
 p {
 	padding: 10px;
 }
+
+footer {
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	margin-top: 50px;
+	background-color: #E6F1F6;
+}
