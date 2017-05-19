@@ -63,6 +63,15 @@ header:after {
 	/*padding-right: 0;*/
 }
 
+.about {
+	border: 5px solid black;
+	margin-bottom: 100px;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: white;
+	padding: 50px;
+}
+
 header {
 	border-top: 1px solid black;
 	border-bottom: 5px solid black;
@@ -74,7 +83,8 @@ body {
 	background-color: #545E7B;
 }
 
-h2 {
+h2,
+h3 {
 	text-align: center;
 }
 
