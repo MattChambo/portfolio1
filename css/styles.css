@@ -84,12 +84,22 @@ body {
 }
 
 h2,
-h3 {
+h3,
+h4,
+h5 {
 	text-align: center;
+}
+
+h5 {
+	font-weight: bold;
 }
 
 p {
 	padding: 30px;
+}
+
+.cv {
+	padding-left: 30px;
 }
 
 footer {
